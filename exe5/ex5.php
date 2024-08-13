@@ -41,7 +41,7 @@ while($month < 1 or $month > 12){
     if($month == ($month / 10)){
     echo "obs: 'o numero precisa ser natural igual ou superior a um e menor que doze'\n";
 }
-    $month = intval(readline());
+    $month = $_POST['month'];
     
     if($month == "1"){
     echo "Janeiro\n";
@@ -76,8 +76,6 @@ else if($month == "10"){
 else if($month == "11"){
     echo "Novembro\n";
 }
-else if($month == "12") echo "Dezembro\n";
-
-    
+else if($month == "12") echo "Dezembro\n";  
 }
 ?>

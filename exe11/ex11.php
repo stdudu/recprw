@@ -14,6 +14,6 @@ function obterDiaDaSemana($data) {
     return $diaDaSemana;
 }
 // Exemplo de uso
-$data = "2024-08-13"; // Formato YYYY-MM-DD
+$data = $_POST['data']; // Formato YYYY-MM-DD
 echo "O dia da semana para a data $data é: " . obterDiaDaSemana($data);
 ?>

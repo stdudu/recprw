@@ -1,5 +1,5 @@
 <?php
-$word = fgets(STDIN);
+$word = $_POST['palavra'];
 $vogais = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
-echo "Palavra original: $word\nPalavra sem vogais: ".str_replace($vogais,'',$word);
+echo "Palavra original: $word<br>Palavra sem vogais: ".str_replace($vogais,'',$word);
 ?>

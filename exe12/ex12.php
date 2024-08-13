@@ -1,4 +1,4 @@
 <?php
-$word = fgets(STDIN);
+$word = $_POST['palavra'];
 echo strrev($word);
 ?>

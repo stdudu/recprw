@@ -1,4 +1,4 @@
 <?php
-$cep = intval(readline());
+$cep = $_POST['cep'];
 echo substr($cep,-3);
 ?>

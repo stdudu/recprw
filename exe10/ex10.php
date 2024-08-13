@@ -1,5 +1,5 @@
 <?php
-$data = fgets(STDIN);
+$data = $_POST['data'];
 $partes = explode('-', $data);
-echo "Dia: $partes[0]\nMês: $partes[1]\nAno: $partes[2]";
+    echo "Dia: $partes[2]<br>Mês: $partes[1]<br>Ano: $partes[0]";
 ?>
